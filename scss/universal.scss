@@ -1,22 +1,50 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+$navbarPrimaryMinHeight: 75px;
+$footerMinHeight: 60px;
+
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 120px;
+  margin-bottom: $footerMinHeight;
 }
+
+.navbar-primary {
+  min-height: $navbarPrimaryMinHeight;
+
+  .container {
+    .navbar-header {
+      .navbar-left {
+        img {
+          max-height: $navbarPrimaryMinHeight - 10px; 
+          max-width: 200px;
+          margin-top: 2.5px;
+        }
+      }
+    }
+
+    #header-nav-body {
+      margin-top: 20px;
+    }
+  }
+}
+
 .main-container {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  min-height: $footerMinHeight;
+  background-color: #222;
+
+  .navbar {
+    margin-bottom: 0;
+    border: 0;
+  }
 }
 
 /* Multi Level Dropdown Menus */
