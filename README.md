@@ -2,6 +2,6 @@
 Skin for the Godfroy Financial Group Website
 
 ##
-Github.io [killerrin.github.io/Skin_GodfroyFinancialGroup/index.html]()
+Github.io [http://killerrin.github.io/Skin_GodfroyFinancialGroup]
 
-Website: [godfroyfinancialgroup.ca]()
+Website: http://godfroyfinancialgroup.com/
