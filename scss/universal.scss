@@ -8,12 +8,11 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: $footerMinHeight;
+  margin-bottom: $footerMinHeight + 40px;
 }
 
 .navbar-primary {
   min-height: $navbarPrimaryMinHeight;
-
   .container {
     .navbar-header {
       .navbar-left {
@@ -32,8 +31,9 @@ body {
 }
 
 .main-container {
-  margin-top: 40px;
+  margin-top: $navbarPrimaryMinHeight;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
