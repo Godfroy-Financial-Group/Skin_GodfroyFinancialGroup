@@ -5,18 +5,29 @@ html {
   min-height: 100%; }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 120px; }
+  margin-bottom: 60px; }
+
+.navbar-primary {
+  min-height: 75px; }
+  .navbar-primary .container .navbar-header .navbar-left img {
+    max-height: 65px;
+    max-width: 200px;
+    margin-top: 2.5px; }
+  .navbar-primary .container #header-nav-body {
+    margin-top: 20px; }
 
 .main-container {
-  margin-top: 20px; }
+  margin-top: 40px; }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px; }
+  min-height: 60px;
+  background-color: #222; }
+  .footer .navbar {
+    margin-bottom: 0;
+    border: 0; }
 
 /* Multi Level Dropdown Menus */
 @media (min-width: 767px) {
